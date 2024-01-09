@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#check-btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #check-btn:hover {
+    background-color: #45a049;
+  }
+
+  #clear-btn {
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #clear-btn:hover {
+    background-color: red;
+  }
+
+  #results-div {
+    margin-top: 20px;
+    font-weight: bold;
+  }  
